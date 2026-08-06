@@ -1,7 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-// Grab elements once — no need to query DOM on every click
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import "./style.css"
+
 const numberDisplay = document.getElementById("number-display");
 const messageBox = document.getElementById("message-box");
 const generateBtn = document.getElementById("generate-btn");
